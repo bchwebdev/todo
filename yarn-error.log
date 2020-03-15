@@ -1,0 +1,35 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.0/bin/yarn.js add body-parser
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EROFS: read-only file system, symlink '../../../mime/cli.js' -> '/app/node_modules/send/node_modules/.bin/mime'
+
+npm manifest: 
+  {
+    "name": "lpdip-docker-hello-node",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Florian Bezagu <florian@bezagu.com>",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
